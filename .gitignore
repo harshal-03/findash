@@ -1,0 +1,37 @@
+# === Java / Maven / Spring Boot ===
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# === Node / Vite / React ===
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# === Environment & secrets ===
+.env
+.env.local
+.env.*.local
+application-local.yml
+application-secrets.yml
+
+# === IDE ===
+.idea/
+*.iml
+.vscode/
+.cursor/
+.classpath
+.project
+.settings/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
